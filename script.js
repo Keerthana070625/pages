@@ -14,13 +14,7 @@ const events = [
     desc: "Welcoming ceremony for the new batch of students.",
     contact: "Cultural Committee - 9123456789"
   },
-  {
-    title: "Technical Seminar on AI",
-    date: "12th September 2025",
-    dept: "Electronics & Communication",
-    desc: "A seminar on latest trends in Artificial Intelligence.",
-    contact: "Dr. Priya (ECE) - 9988776655"
-  },
+ 
   {
     title: "Industrial Visit",
     date: "25th September 2025",
@@ -54,3 +48,4 @@ events.forEach(event => {
   
   eventList.appendChild(card);
 });
+
